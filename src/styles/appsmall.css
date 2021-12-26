@@ -1,0 +1,75 @@
+
+@media screen and (max-width:551px) {
+    .upperdiv{
+      margin-top: 0.5rem;
+    }
+    .bg-text{
+      color: rgb(31, 29, 29);
+    }
+    .secondarymain{
+      margin-top: 10%;
+      padding: 0 4rem;
+  }
+  
+  }
+  
+@media screen and (max-width:500px) {
+
+
+
+      
+  .rec-dot_active{
+    background: #000;
+    box-shadow: none !important;
+    color: #000;
+    background-color: black !important;
+    
+  }
+  .rec-arrow{
+    display: none;
+  }
+  .cardinfo{
+    padding: 0;
+  }
+  .secondarymain{
+    padding:0 1rem;
+  }
+
+/* table */
+
+
+  tr{
+      border: 0.5rem solid rgb(255, 255, 255);
+  }
+  
+  td, th {
+    padding: 1px;
+    background: rgba(123, 162, 214, 0.1);
+  }
+  .tableimage{
+      height: 100px;
+      overflow: hidden;
+      display: flex;
+      
+      align-items: center;
+      justify-content: center;
+  }
+  .tableimage img{
+      width: 60px;
+    }
+   table .sm-lost{
+     display: none;
+   }
+   table .btn{
+     transform: scale(0.8);
+   }
+   .userinfobox{
+     margin: auto;
+   }
+   .userbox{
+     margin:0;
+   }
+   
+    
+  }
+  
