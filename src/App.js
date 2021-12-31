@@ -3,6 +3,7 @@ import './styles/appsmall.css'
 import './styles/index.css'
 import './styles/social.css'
 
+import React from 'react';
 import Main from './components/mainComponent';
 import { Context, wholestate } from './contextapi/context';
 import { BrowserRouter } from 'react-router-dom';
